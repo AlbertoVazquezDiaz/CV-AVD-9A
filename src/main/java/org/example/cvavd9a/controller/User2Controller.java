@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class User2Controller {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello from User2Controller";
+        return "Hello from User2Controller :D";
     }
 }
